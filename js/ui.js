@@ -18,7 +18,7 @@ var ui = (function() {
 	var darkLayout = false;
 
 	function init() {
-		
+		console.log("ui.init");
 		supportsSave = !!new Blob()?true:false;
 		
 		bindElements();

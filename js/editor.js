@@ -8,7 +8,7 @@ var editor = (function() {
 
 
 	function init() {
-
+        console.log("editor.init");
 		lastRange = 0;
 		bindElements();
 
@@ -101,9 +101,8 @@ var editor = (function() {
 	}
 
 	function checkTextHighlighting( event ) {
-
 		var selection = window.getSelection();
-
+        console.log("selection, ", selection);
 		if ( (event.target.className === "url-input" ||
 		     event.target.classList.contains( "url" ) ||
 		     event.target.parentNode.classList.contains( "ui-inputs")) ) {
