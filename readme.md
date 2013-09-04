@@ -4,6 +4,8 @@ Zenpen (http://zenpen.io) is a web app for writing minimally, and getting into t
 
 All information is persistent locally, using HTML5 local storage.
 
+I added [require.js](http://requirejs.org/) support! (Previously used [head.js](http://headjs.com/)).
+
 ##ZenPen's minimal interface
 ![ZenPen](http://i.imgur.com/gHLGRDR.png)
 
